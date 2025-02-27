@@ -12,6 +12,13 @@ git remote add origin <URL> : link remote repo (done everytime you make one in t
 
 git remote -v : verify the url (prints it)
 
-git push -u origin main : done the first time you push to main
+git branch : print current branch name
+
+git push -u origin <branch name*> : done the first time you push to main
+* : master, main, etc. (defaults to master, not main)
+
 git push : done every time after the first time
+
+git status : print list of  staged, modified & not staged, untracked files
+git diff : print changes in directory that aren't staged
 
