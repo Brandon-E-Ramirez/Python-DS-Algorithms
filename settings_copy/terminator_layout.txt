@@ -1,0 +1,60 @@
+[[python_coding]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      maximised = True
+      fullscreen = False
+      size = 1920, 1021
+      last_active_term = 15500194-a451-4b20-b15f-3e5e025c28f2
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned  # Split window into left and right
+      parent = child0
+      order = 0
+      position = 958  # Adjust if needed for better balance
+      ratio = 0.5  # Adjust if needed
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = default
+      uuid = c0abfc38-3455-4cf3-8b98-1be4d6752fc2
+      command = "bash -c 'vim; exec bash'"
+      directory = /home/yaboi_sakurai/Downloads/python
+    [[[child3]]]
+      type = VPaned  # Right side should have a vertical split
+      parent = child1
+      order = 1
+      position = 600  # Adjust as needed
+      ratio = 0.5
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = default
+      uuid = b6e4bb2e-256b-4565-8b5e-356e3cec8ff7
+      command = ls
+      directory = /home/yaboi_sakurai/Downloads/python
+    [[[child6]]]
+      type = VPaned  # This ensures the right-bottom split
+      parent = child3
+      order = 1
+      position = 400  # Adjust this position if necessary
+      ratio = 0.5
+    [[[terminal5]]]
+      type = Terminal
+      parent = child6
+      order = 0
+      profile = default
+      uuid = 15500194-a451-4b20-b15f-3e5e025c28f2
+      command = "bash -c 'vifm; exec bash'"
+      directory = /home/yaboi_sakurai/Downloads/python
+    [[[terminal7]]]
+      type = Terminal
+      parent = child6
+      order = 1
+      profile = default
+      uuid = 890a1c2d-4c56-4a9e-9f23-bde902e7fa99
+      command = "bash -c 'ls; exec bash'"
+      directory = /home/yaboi_sakurai/Downloads/python
