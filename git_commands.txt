@@ -1,4 +1,5 @@
-notes: repo is named based on name of parent folder
+notes: repo is named based on name of parent folder, when making a 'repo' from 
+system, need to 'git init' localy and link with new one you make on github.
 
 git init : new repo
 
@@ -7,5 +8,10 @@ git add file.ext : specific file
 
 git commit -m "commit message" : message required
 
-git push
+git remote add origin <URL> : link remote repo (done everytime you make one in terminal)
+
+git remote -v : verify the url (prints it)
+
+git push -u origin main : done the first time you push to main
+git push : done every time after the first time
 
