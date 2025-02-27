@@ -1,0 +1,11 @@
+notes: repo is named based on name of parent folder
+
+git init : new repo
+
+git add . : commit all files
+git add file.ext : specific file
+
+git commit -m "commit message" : message required
+
+git push
+
