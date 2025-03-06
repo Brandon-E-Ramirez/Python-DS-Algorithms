@@ -22,3 +22,12 @@ git push : done every time after the first time
 git status : print list of  staged, modified & not staged, untracked files
 git diff : print changes in directory that aren't staged
 
+
+
+/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%%
+
+Downloadingfrom existing Github repo:
+
+git clone <https://url.github.io.git> : download repo from Github
+
+git pull = git fetch + git merge : updates local repo with main from Github
