@@ -16,7 +16,21 @@ print(nArr[1][1]) #print the middle item
 print(a[-2]) #print second last item
 print(len(nArr))
 
-print(type(a))
+print(type(a[4])) #print type of element
 
 newList = list(("apple", "banana", "cherry"))#make new with list()
 print(newList)
+
+# Create a list [0, 0, 0, 0, 0, 0, 0]
+eightElementArr = [0] * 7
+print(eightElementArr)
+
+# Modifying the elements in existing list
+# https://www.geeksforgeeks.org/python-lists/
+
+
+
+
+
+
+
