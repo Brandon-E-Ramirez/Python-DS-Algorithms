@@ -1,6 +1,8 @@
 # mutable, allows duplicates, dynamic array 'arraylist' in Java, can store different types of
 # data in same list. It is ordered by default. 
 
+# creating a list 
+
 a = [0,1,2,3,4,5,6,7,8,9]
 print(a)
 
@@ -28,7 +30,19 @@ print(eightElementArr)
 # Modifying the elements in existing list
 # https://www.geeksforgeeks.org/python-lists/
 
+emptyList = []
 
+# adding to a list: 
+
+# append() add an element to end of the list
+emptyList.append('a')
+print(emptyList)
+# extend(): add multiple elements to the end of list
+emptyList.extend(['i','u','e','o'])
+print(emptyList)
+# insert(): add element to specific index, inserting  at index 0
+emptyList.insert(0, 'Vowels: ')
+print(emptyList)
 
 
 
